@@ -239,3 +239,43 @@ body {
   line-height: 1.5;
   color: #5f5f5f;
 }
+
+.offices__slider{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.offices h1 {
+  text-align: center;
+  text-justify: auto;
+  margin-bottom: 15px;
+}
+.offices p{
+  text-align: center;
+  text-justify: auto;
+  
+}
+
+.office img{
+ width: 100%;
+  height: auto;
+}
+.join-us__header h1{
+  text-align: center;
+  text-justify: auto;
+  
+}
+ .join-us__header a{
+  text-align: center;
+  text-justify: auto;
+  
+ } 
+ .main-footer p{
+  text-align: center;
+  text-justify: auto;
+ }
+ .main-footer {
+  text-align: center;
+  text-justify: auto;
+ }
