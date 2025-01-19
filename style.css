@@ -40,6 +40,7 @@ text-align: center;
 }
 
 
+
 .col-3 {
   background-color:#32beac; 
   border-radius: 10px; 
@@ -64,6 +65,7 @@ text-align: center;
 }
 
 .col-3 h2 {
+
   font-size: 1em; 
   color: #666; 
   margin-bottom: 20px; 
@@ -168,14 +170,7 @@ h1 br{
   transform: scale(1.1);
 color:  #00b39b;
 }
-.brands__logos{
-  flex-wrap: wrap;
-  gap: 5px;
-  
-align-items: center;
 
-  font-size: xx-small;
-}
 /* Réinitialisation de base */
 body {
   margin: 0;
@@ -189,6 +184,7 @@ body {
 .stats {
   padding: 3rem 1rem;
 }
+
 
 .stats__header {
   text-align: center;
@@ -283,3 +279,34 @@ body {
   text-align: center;
   text-justify: auto;
  }
+.col-2{
+  display: flex;
+  .stats__item{
+    margin: 20px;
+  }
+}
+.stats{
+  display: flex;
+}
+.brands__logos{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.offices__slider{
+  display: grid;
+  grid-template-columns: repeat(3,313px);
+  align-items: center;
+  justify-content: center;
+}
+.office__desc h1{
+  color: #333;
+  text-decoration: none;
+  border: none;
+  font-size: 20px;
+}
+button{
+  color: white;
+  background-color: rgb(33, 123, 134);
+}
+
+
